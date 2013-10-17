@@ -11,14 +11,14 @@ Usage
 `from sentiments import helpers`
 Now you can use the helper module from the sentiments package to perform sentiment analysis.
 	choice = int(raw_input("URL/String[0/1]: "))
-    if choice == 1:
-        obj = CheckSentiment()
-        obj.showSentimentOnInput()
-    elif choice == 0:
-        obj = CheckSentiment(0)
-        obj.showSentimentOnInput()
-    else:
-        print "Wrong choice"
+    	if choice == 1:
+		obj = CheckSentiment()
+        	obj.showSentimentOnInput()
+        elif choice == 0:
+		obj = CheckSentiment(0)
+		obj.showSentimentOnInput()
+	else:
+		print "Wrong choice"
 		
 Credits
 -------
