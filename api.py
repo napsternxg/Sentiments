@@ -31,7 +31,6 @@ class CheckSentiment:
 
     def getResponse(self,data_string):
         request_url = self.sentiment_analysis_url+self.getEncodedQuery(data_string)
-        print request_url
         response = unirest.get(request_url, {"X-Mashape-Authorization": "e9AyjmsMW4jb5gMLv9DdMEbncmkLnjpC"})
         return response
 
